@@ -36,7 +36,7 @@ Please see the [Tutorial](https://github.com/relttira/STEP/wiki/Tutorial) for a 
 
 ## Notes on Methodology
 
-It is highly recommended that you review either the [Methodology](https://github.com/relttira/STEP/wiki/Methodology) or the [original publication](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf) and its supplemental materials before use. Both the identification and tracking algorithms require highly sensitive user-specified parameters, and reviewing these materials –– in addition to the implementation details mentioned above –– will help you achieve optimal results more quickly.
+It is highly recommended that you review either the [Methodology](https://github.com/relttira/STEP/wiki/Methodology) or the [original publication](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf) and its supplemental materials before use. Both the identification and tracking algorithms require highly sensitive user-specified parameters, and reviewing these materials –– *in addition to the usage tips mentioned above* –– will help you achieve optimal results more quickly.
 
 Please also see the original publication for further information regarding reasoning behind these steps and the mathematics used herein.
 
