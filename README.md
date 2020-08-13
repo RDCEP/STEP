@@ -32,15 +32,13 @@ pip install STEP
  **Basemap is only necessary when using the example `plot_with_map.py` in the [tutorial wiki](https://github.com/relttira/STEP/wiki/Tutorial).*
 ## Usage
 
-Please see `introduction.py`, for a comprehensive introduction to package use. See [Implementation Details](https://github.com/bkleeman/STEP-suggestions/wiki/Implementation-Details) for function signatures and usage tips. You can also call [`help`](https://docs.python.org/3/library/functions.html#help)`(function)` for information on these and functions called therein. Depending on the function, calling `help` may provide more info.
-
-For a deeper introduction, see the [tutorial wiki](https://github.com/relttira/STEP/wiki/Tutorial).
+Please see the [Tutorial](https://github.com/relttira/STEP/wiki/Tutorial), for a comprehensive introduction to package use. See [Implementation Details](https://github.com/relttira/wiki/Implementation-Details) for function signatures and usage tips. You can also call [`help`](https://docs.python.org/3/library/functions.html#help)`(function)` for information on these and functions called therein. Depending on the function, calling `help` may provide more info.
 
 ## Notes on Methodology
 
-It is highly recommended that you review either the [methodology wiki](https://github.com/relttira/STEP/wiki/Methodology) or the [original publication](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf) and its supplemental materials before use. Both the identification and tracking algorithms require highly sensitive user-specified parameters, and reviewing these materials -- particularly the "Usage Notes" associated with each algorithm -- will help you achieve optimal results more quickly.
+It is highly recommended that you review either the [Methodology](https://github.com/relttira/STEP/wiki/Methodology) or the [original publication](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf) and its supplemental materials before use. Both the identification and tracking algorithms require highly sensitive user-specified parameters, and reviewing these materials –– particularly the "Usage Tips" associated with each algorithm –– will help you achieve optimal results more quickly.
 
-Please also see the associated publication above for further information regarding reasoning behind these steps and the mathematics used herein.
+Please also see the original publication for further information regarding reasoning behind these steps and the mathematics used herein.
 
 ## Contributing
 
