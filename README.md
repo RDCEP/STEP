@@ -9,6 +9,8 @@ STEP is a Python package that identifies, tracks, and computes physical characte
 * Notes on Methodology
 * Contributing
 * License
+* Authors
+* Acknowledgements
 
 ## Installation
 
