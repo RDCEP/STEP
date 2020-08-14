@@ -23,7 +23,6 @@ pip install STEP
 ## Dependencies
 |Name|Version|
 |--|--|
-|[Basemap](matplotlib.org/basemap)*|1.2.1|
 |[imageio](imageio.github.io)|2.8.0|
 |[Matplotlib](matplotlib.org)|3.2.1|
 |[netCDF4](unidata.github.io/netcdf4-python/netCDF4/index.html)|1.5.3|
@@ -31,7 +30,7 @@ pip install STEP
 |[scikit-image](scikit-image.org)|0.17.2|
 |[SciPy](scipy.org)|1.4.1|
 
- **Basemap is only necessary when using the example `plot_with_map.py`.*
+ *Note:[Basemap](matplotlib.org/basemap) is necessary when using the example function in `plot_with_map.py`.*
 ## Usage
 
 Please see the [Tutorial](https://github.com/relttira/STEP/wiki/Tutorial) for a comprehensive introduction to package use. See [Implementation Details](https://github.com/relttira/wiki/Implementation-Details) for function signatures and usage tips. You can also call [`help`](https://docs.python.org/3/library/functions.html#help)`(function)` for information on these and functions called therein. Depending on the function, calling `help` may provide more info.
