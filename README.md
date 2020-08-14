@@ -37,7 +37,7 @@ Please see the [Tutorial](https://github.com/relttira/STEP/wiki/Tutorial) for a 
 
 ## Notes on Methodology
 
-For more detailed information, see the [Methodology](https://github.com/relttira/STEP/wiki/Methodology) or the [original publication](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf) and its supplemental materials. Please also see the original publication for further information about the reasoning behind the algorithms and the mathematics used.
+For more detailed information, see the [Methodology](https://github.com/relttira/STEP/wiki/Methodology) or the [original publication](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf) and its supplemental materials. Please also see the original publication for more information on the reasoning behind the algorithms and the mathematics used.
 
 ## Contributing
 
