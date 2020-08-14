@@ -4,9 +4,9 @@ STEP is a Python package that identifies, tracks, and computes physical characte
 
 To identify and track storms in a dataset:
 1. Put the data in a 3D Numpy array with dimensions *Time x Rows x Columns*.
-2. Run identify().
-3. Run track().
-4. Visualize with storms().
+2. Run `identify()`.
+3. Run `track()`.
+4. Visualize with `storms()`.
 
 ## Summary
 * Installation
