@@ -43,17 +43,10 @@ For more detailed information, see the [Methodology](https://github.com/relttira
 
 ## Contributing
 
-Changes are certainly welcome, as there are a good deal of complexity improvements to make on the implementation and functionality additions to build out related to the publication. If you would like to propose a change and/or note an error, please open an issue first to discuss what needs improvement (and, if applicable, how that might be accomplished).
-
-### Future Work
-
-Below are a list of generally useful ideas for future additions to STEP:
-
- - Adding the ability to use the computed metrics to find and visualize the spatial distribution of rainstorm characteristics, as covered in the publication.
- - Implementing a speed-up for the similarity measure computation. This could at least be done by dividing the calculation into subsets and summing their results.
+If you would like to propose a change and/or note an error, please open an issue first to discuss what needs improvement (and, if applicable, how that might be accomplished).
 
 ## License
-STEP is released under the [MIT License???](https://choosealicense.com/licenses/mit/).
+STEP is released under the ['Add a license here' license]().
 
 ## Authors
 * [Alex Rittler](https://www.linkedin.com/in/arittler) - *developer*
