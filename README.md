@@ -2,6 +2,8 @@
 
 STEP is a Python package that identifies, tracks, and computes physical characteristics of rainstorms given spatiotemporal precipitation data. The algorithms herein are implementations of those proposed by Chang et al. in [*Changes in Spatiotemporal Precipitation Patterns in Changing Climate Conditions*](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf), released by the [Center for Robust Decision-making on Climate and Energy Policy](https://www.rdcep.org). For implementation details, see the [wiki](https://github.com/bkleeman/STEP-suggestions/wiki).
 
+*Due to the complex nature of the computations used to track storms, please be aware that this algorithm requires a good deal of time to run and uses an immense amount of memory. For these reasons, it is highly recommended that runs of any substance be done on machines designed specifically for tasks of such computational weight.*
+
 ## Summary
 * Installation
 * Dependencies
