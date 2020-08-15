@@ -56,12 +56,12 @@ Below are a list of generally useful ideas for future additions to STEP:
 STEP is released under the [MIT License???](https://choosealicense.com/licenses/mit/).
 
 ## Authors
-* [Alex Rittler](Link_to_github_or_whatever_social_profile) - *developer*
+* [Alex Rittler]() - *developer*
 
 ## Acknowledgements
-* [Won Chang](LinkedIn_or_RDCEP_profile_if_permission_given) - *research*
-* [Michael Stein](LinkedIn_or_RDCEP_profile_if_permission_given) - *research*
-* [Jiali Wang](LinkedIn_or_RDCEP_profile_if_permission_given) - *research*
-* [Rao Kotamarthi](LinkedIn_or_RDCEP_profile_if_permission_given) - *research*
-* [Elisabeth Moyer](LinkedIn_or_RDCEP_profile_if_permission_given) - *research*
+* Won Chang - *research*
+* Michael Stein - *research*
+* Jiali Wang - *research*
+* Rao Kotamarthi - *research*
+* Elisabeth Moyer - *research*
 * [Benjamin Kleeman](https://github.com/bkleeman) - *guidance on project structure and docs* 
