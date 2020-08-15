@@ -30,7 +30,7 @@ pip install STEP
 |[scikit-image](scikit-image.org)|0.17.2|
 |[SciPy](scipy.org)|1.4.1|
 
- *Note: [Basemap](matplotlib.org/basemap) is necessary when using the example function in `plot_with_map.py`.*
+ *Note: [Basemap](matplotlib.org/basemap) is necessary when using the example function in `plot_with_map.py`. Alternatively, you can plot the results of the package using the visualization library of your choice.*
 ## Usage
 
 Please see the [Tutorial](https://github.com/relttira/STEP/wiki/Tutorial) for a comprehensive introduction to package use. See [Implementation Details](https://github.com/relttira/wiki/Implementation-Details) for function signatures and usage tips. You can also call [`help`](https://docs.python.org/3/library/functions.html#help)`(function)` for information on these and functions called therein. Depending on the function, calling `help` may provide more info.
