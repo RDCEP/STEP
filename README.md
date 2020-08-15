@@ -2,12 +2,6 @@
 
 STEP is a Python package that identifies, tracks, and computes physical characteristics of rainstorms given spatiotemporal precipitation data. The algorithms herein are implementations of those proposed by Chang et al. in [*Changes in Spatiotemporal Precipitation Patterns in Changing Climate Conditions*](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf), released by the [Center for Robust Decision-making on Climate and Energy Policy](https://www.rdcep.org). For implementation details, see the [wiki](https://github.com/bkleeman/STEP-suggestions/wiki).
 
-To identify and track storms in a dataset:
-1. Put the data in a 3D Numpy array with dimensions *Time x Rows x Columns*.
-2. Run `identify()`.
-3. Run `track()`.
-4. Visualize with `storms()`.
-
 ## Summary
 * Installation
 * Dependencies
@@ -36,7 +30,7 @@ pip install STEP
 |[scikit-image](scikit-image.org)|0.17.2|
 |[SciPy](scipy.org)|1.4.1|
 
- *Note: [Basemap](matplotlib.org/basemap) is necessary when using the example function in `plot_with_map.py`. Alternatively, plot results with the visualization library of your choice.*
+ *Note: [Basemap](matplotlib.org/basemap) is necessary when using the example function in `plot_with_map.py`.*
 ## Usage
 
 Please see the [Tutorial](https://github.com/relttira/STEP/wiki/Tutorial) for a comprehensive introduction to package use. See [Implementation Details](https://github.com/relttira/wiki/Implementation-Details) for function signatures and usage tips. You can also call [`help`](https://docs.python.org/3/library/functions.html#help)`(function)` for information on these and functions called therein. Depending on the function, calling `help` may provide more info.
