@@ -56,7 +56,7 @@ Below are a list of generally useful ideas for future additions to STEP:
 STEP is released under the [MIT License???](https://choosealicense.com/licenses/mit/).
 
 ## Authors
-* [Alex Rittler]() - *developer*
+* [Alex Rittler](https://www.linkedin.com/in/arittler) - *developer*
 
 ## Acknowledgements
 * Won Chang - *research*
