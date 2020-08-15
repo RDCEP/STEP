@@ -27,7 +27,7 @@ pip install STEP
 |--|--|
 |[imageio](https://imageio.readthedocs.io/en/stable/installation.html)|2.8.0|
 |[Matplotlib](https://matplotlib.org/3.2.2/users/installing.html)|3.2.1|
-|[netCDF4]()|1.5.3|
+|[netCDF4](https://unidata.github.io/netcdf4-python/netCDF4/index.html)|1.5.3|
 |[NumPy](https://numpy.org/install/)|1.18.5|
 |[scikit-image](https://scikit-image.org/docs/dev/install.html)|0.17.2|
 |[SciPy](https://www.scipy.org/install.html)|1.4.1|
