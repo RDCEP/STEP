@@ -16,9 +16,9 @@ STEP is a Python package that identifies, tracks, and computes physical characte
 
 ## Installation
 
-To manually install STEP:
-1. Download the repository.
-2. Open a terminal window and cd to the root directory where `setup.py` can be found.
+To install STEP:
+1. Download the repository and unzip it.
+2. `cd` to the root directory where `setup.py` can be found.
 3. Execute ```$ python setup.py install```.
 
 
