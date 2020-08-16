@@ -22,11 +22,7 @@ To manually install STEP:
 3. Execute ```$ python setup.py install```.
 
 
-<> (To install STEP, use the package manager [pip](https://pip.pypa.io/en/stable/).)
-
-<>(```bash
-pip install STEP
-```)
+<!--- To install STEP, use the package manager [pip](https://pip.pypa.io/en/stable/). --->
 
 ## Dependencies
 |Name|Version|
