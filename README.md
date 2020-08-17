@@ -59,4 +59,5 @@ STEP is released under the ['Add a license here' license]().
 * Jiali Wang - *research*
 * Rao Kotamarthi - *research*
 * Elisabeth Moyer - *research*
-* [Benjamin Kleeman](https://github.com/bkleeman) - *guidance on project structure and docs* 
+* [Benjamin Kleeman](https://github.com/bkleeman) - *guidance on project structure and docs*
+* Emily Padston - *project management and guidance*
