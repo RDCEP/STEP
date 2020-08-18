@@ -16,10 +16,8 @@ STEP is a Python package that identifies, tracks, and computes physical characte
 
 ## Installation
 
-To install STEP:
-1. Download the repository and unzip it.
-2. `cd` to the root directory where `setup.py` can be found.
-3. Execute ```$ python setup.py install```.
+`git clone https://github.com/relttira/STEP.git`  
+`$ python setup.py install`
 
 
 <!--- To install STEP, use the package manager [pip](https://pip.pypa.io/en/stable/). --->
@@ -36,6 +34,27 @@ To install STEP:
 
  *[Basemap](https://matplotlib.org/basemap/users/installing.html) is necessary when using the example plotting function `storms_with_map` found in the [Tutorial](https://github.com/relttira/STEP/wiki/Tutorial). Additionally, the results of the package can be plotted using your visualization library of choice.*
 ## Usage
+`cd step` and create a `test.py` file
+```
+# load some initial precip data 
+precip_data = numpy.load('precip_1996.npy', allow_pickle=True)
+
+# set a precip threshold and narrow your region of interest
+THRESHOLD = 0.6 
+trimmed_data = numpy.where(precip_data < THRESHOLD, 0, precip_data)
+
+# create a structural set 
+struct = numpy.zeros((16, 16))
+rr, cc = draw.disk((7.5, 7.5), radius=8.5)
+struct[rr, cc] = 1
+
+# identify your storms
+labeled_maps = identification.identify(trimmed_data, struct)
+
+# visualize your data
+cmap = matplotlib.pyplot .get_cmap('hsv')
+visualization.storms(labeled_maps, cmap, 'Identified Storms 1996', 1, show_save='save')
+```
 
 Please see the [Tutorial](https://github.com/relttira/STEP/wiki/Tutorial) for a comprehensive introduction to package use. See [Implementation Details](https://github.com/relttira/wiki/Implementation-Details) for function signatures and usage tips. You can also call [`help`](https://docs.python.org/3/library/functions.html#help)`(function)` for information on these and functions called therein. Depending on the function, calling `help` may provide more info.
 
