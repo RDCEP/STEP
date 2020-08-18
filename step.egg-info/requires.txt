@@ -1,0 +1,6 @@
+imageio
+matplotlib
+netCDF4
+numpy
+scikit-image
+scipy

@@ -56,6 +56,10 @@ cmap = matplotlib.pyplot .get_cmap('hsv')
 visualization.storms(labeled_maps, cmap, 'Identified Storms 1996', 1, show_save='save')
 ```
 
+Run the file and see the output:
+
+![Results in GIF format](https://media.giphy.com/media/fuKHtjrF4btvIjxMKp/giphy.gif)
+
 Please see the [Tutorial](https://github.com/relttira/STEP/wiki/Tutorial) for a comprehensive introduction to package use. See [Implementation Details](https://github.com/relttira/wiki/Implementation-Details) for function signatures and usage tips. You can also call [`help`](https://docs.python.org/3/library/functions.html#help)`(function)` for information on these and functions called therein. Depending on the function, calling `help` may provide more info.
 
 ## Notes on Methodology
