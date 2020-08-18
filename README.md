@@ -2,17 +2,7 @@
 
 STEP is a Python package that identifies, tracks, and computes physical characteristics of rainstorms given spatiotemporal precipitation data. The algorithms herein are implementations of those proposed by Chang et al. in [*Changes in Spatiotemporal Precipitation Patterns in Changing Climate Conditions*](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf), released by the [Center for Robust Decision-making on Climate and Energy Policy](https://www.rdcep.org). For implementation details, see the [wiki](https://github.com/bkleeman/STEP-suggestions/wiki).
 
-*Note: Due to the time and space complexity of the computations used to track storms, it is highly recommended that runs of any substance be done on machines designed specifically for tasks of such computational weight.*
-
-## Summary
-* Installation
-* Dependencies
-* Usage
-* Notes on Methodology
-* Contributing
-* License
-* Authors
-* Acknowledgements
+*Note: Due to the time and space complexity of the computations used to track storms, you may struggle to run the tracking algorithm on a general purpose computer. We suggest using specialized hardware for tracking.*
 
 ## Installation
 
@@ -56,15 +46,18 @@ cmap = matplotlib.pyplot .get_cmap('hsv')
 visualization.storms(labeled_maps, cmap, 'Identified Storms 1996', 1, show_save='save')
 ```
 
-Please see the [Tutorial](https://github.com/relttira/STEP/wiki/Tutorial) for a comprehensive introduction to package use. See [Implementation Details](https://github.com/relttira/wiki/Implementation-Details) for function signatures and usage tips. You can also call [`help`](https://docs.python.org/3/library/functions.html#help)`(function)` for information on these and functions called therein. Depending on the function, calling `help` may provide more info.
+Run the file and see the output:
 
-## Notes on Methodology
+![Results in GIF format](https://media.giphy.com/media/fuKHtjrF4btvIjxMKp/giphy.gif)
 
-For more detailed information, see the [Methodology](https://github.com/relttira/STEP/wiki/Methodology) or the [original publication](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf) and its supplemental materials. Please also see the original publication for more information on the reasoning behind the algorithms and the mathematics used.
+Please see the [Tutorial](https://github.com/relttira/STEP/wiki/Tutorial) for a comprehensive introduction.  
+The [Implementation Details wiki](https://github.com/relttira/wiki/Implementation-Details) provides function signatures and usage tips.  
+-- You can also call [`help`](https://docs.python.org/3/library/functions.html#help)`(function)` in your python script for more info. Command line interface yet to come.
+
+Both the [Methodology wolo](https://github.com/relttira/STEP/wiki/Methodology) and the [original publication](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf) include background information on the reasoning behind the algorithms.
 
 ## Contributing
-
-If you would like to propose a change and/or note an error, please open an issue first to discuss what needs improvement (and, if applicable, how that might be accomplished).
+Feel free to open an issue for bugs and feature requests.
 
 ## License
 STEP is released under the ['Add a license here' license]().
@@ -78,5 +71,5 @@ STEP is released under the ['Add a license here' license]().
 * Jiali Wang - *research*
 * Rao Kotamarthi - *research*
 * Elisabeth Moyer - *research*
-* [Benjamin Kleeman](https://github.com/bkleeman) - *guidance on project structure and docs*
+* [Benjamin Kleeman](https://github.com/bkleeman) - *project maintenance & development*
 * Emily Padston - *project management and guidance*
