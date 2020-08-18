@@ -54,7 +54,7 @@ Please see the [Tutorial](https://github.com/relttira/STEP/wiki/Tutorial) for a 
 The [Implementation Details wiki](https://github.com/relttira/wiki/Implementation-Details) provides function signatures and usage tips.  
 -- You can also call [`help`](https://docs.python.org/3/library/functions.html#help)`(function)` in your python script for more info. Command line interface yet to come.
 
-Both the [Methodology wolo](https://github.com/relttira/STEP/wiki/Methodology) and the [original publication](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf) include background information on the reasoning behind the algorithms.
+Both the [Methodology wiki](https://github.com/relttira/STEP/wiki/Methodology) and the [original publication](https://geosci.uchicago.edu/~moyer/MoyerWebsite/Publications/Papers/Changes_Spatio-temporal_Precipitation_patterns.pdf) include background information on the reasoning behind the algorithms.
 
 ## Contributing
 Feel free to open an issue for bugs and feature requests.
