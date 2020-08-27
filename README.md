@@ -66,7 +66,7 @@ STEP is released under the ['Apache ECL-2 License]().
 * [Alex Rittler](https://www.linkedin.com/in/arittler) - *developer*
 
 ## Acknowledgements
-* Won Chang - *research and guidance on development*
+* [Won Chang](http://www.wonchang.net/) - *research and guidance on development*
 * Michael Stein - *research*
 * Jiali Wang - *research*
 * Rao Kotamarthi - *research*
