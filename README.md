@@ -60,13 +60,13 @@ Both the [Methodology wiki](https://github.com/relttira/STEP/wiki/Methodology) a
 Feel free to open an issue for bugs and feature requests.
 
 ## License
-STEP is released under the ['Add a license here' license]().
+STEP is released under the ['Apache ECL-2 License]().
 
 ## Authors
 * [Alex Rittler](https://www.linkedin.com/in/arittler) - *developer*
 
 ## Acknowledgements
-* Won Chang - *research*
+* Won Chang - *research and guidance on development*
 * Michael Stein - *research*
 * Jiali Wang - *research*
 * Rao Kotamarthi - *research*
