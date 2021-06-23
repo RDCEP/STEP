@@ -132,7 +132,7 @@ def track(labeled_maps: np.ndarray, precip_data: np.ndarray, tau: float, phi: fl
                                     vec_angle = 1
                                 if test:
                                     print(f'Angle: {vec_angle}')
-                                if vec_angle > -.33:    # equivalent to 120 degree direction difference
+                                if vec_angle < 2.09:    # equivalent to 120 degree direction difference
                                     # update the best matched storm information
                                     if test:
                                         print('Possible match through angle')
