@@ -191,6 +191,10 @@ def get_central_loc(storms: np.ndarray, precip: np.ndarray, lats: np.ndarray, lo
     # initialize an array to store our result, but of type object to allow us to store an array in each cell
     result = np.zeros((lifetime, total_storms)).astype(object)
 
+    # convert lats and longs from degree to radian
+    lats = lats / 180. * np.pi
+    longs = longs / 180. * np.pi
+
     # create arrays of x, y, and z values for the cartesian grid in R3
     x_array = np.cos(lats) * np.cos(longs)
     y_array = np.cos(lats) * np.sin(longs)
@@ -223,9 +227,16 @@ def get_central_loc(storms: np.ndarray, precip: np.ndarray, lats: np.ndarray, lo
                 h_avg = sqrt((x_avg ** 2) + (y_avg ** 2))
 
                 # the central location on earth's surface is given by the following
-                central_location[0] = 2 * atan(y_avg / (sqrt((y_avg ** 2) + (x_avg ** 2)) + x_avg))
-                central_location[1] = 2 * atan(z_avg / (sqrt((z_avg ** 2) + (h_avg ** 2)) + h_avg))
+                tmp_lon = atan(y_avg / x_avg)/np.pi*180
+                tmp_lat = atan(z_avg / h_avg)/np.pi*180
+                if tmp_lon > 0:
+                    ### convert to degree west is the longitude is consider in degree east
+                    tmp_lon -= 180
+                # put longitude and latitude to the first and second dimensions
+                central_location[0] = tmp_lon
+                central_location[1] = tmp_lat
 
+                
                 # and we place it in the appropriate spot in the array
                 result[time_index][label] = central_location
 
